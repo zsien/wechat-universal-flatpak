@@ -139,8 +139,8 @@ modules:
       - install -Dm644 RadiumWMPF/runtime/* -t $FLATPAK_DEST/wechat/RadiumWMPF/runtime
     sources:
       - type: file
-        url: https://pro-store-packages.uniontech.com/appstore/pool/appstore/c/com.tencent.wechat/com.tencent.wechat_1.0.0.238_amd64.deb
-        sha256: 371026679dba25a033023b4077dc527059d906ec03ea2db05f6fc012ab40c96b
+        url: https://pro-store-packages.uniontech.com/appstore/pool/appstore/c/com.tencent.wechat/com.tencent.wechat_1.0.0.241_amd64.deb
+        sha256: 2768a97376f2073bd515ef81d64fa7b20668fa6c11a4177a2ed17fc9b03398a3
         dest-filename: wechat.deb
         x-checker-data:
           type: debian-repo
